@@ -56,7 +56,55 @@
     color: #fff;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
   }
 
+
+  /* carousel */
+
+  .carousel-conainer{
+    /* border: 1px solid red; */
+    margin-top:20px;
+    height: 80vh;
+  }
+
+  .carousel-card{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .carousel-card h1{
+    font-size: 60px;
+    margin-top: 30px;
+    font-weight: bolder;
+  }
+
+  .carousel-card p{
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  .carousel-card h3{
+    margin-top: 90px;
+    margin-bottom: auto;
+    
+  }
+  .carousel-card .card1-button{
+    margin-top: 20px;
+  }
+
+  .card-left{
+    padding-top: 20px;
+    margin-left: 130px;
+  }
+
+  .card-right{
+    margin-left:100px;
+    margin-right: auto;
+  }
+  
+  
   
   
