@@ -343,6 +343,7 @@
 
  .app-highlights{
    margin-top:40px;
+   font-family: 'Inter', sans-serif;
  }
 
  .app-highlights > hr{
@@ -570,48 +571,122 @@
     font-size: 20px;
     color:#00AFCB;
     background-color: #fff;
+    cursor: pointer;
    }
 
 
    .footer{
-    height:80vh;
+    font-family: 'Inter', sans-serif;
+    height:60vh;
     display: flex;
+   }
+
+   .footer > .footer-left{
+    margin-left: 100px;
+    margin-top: 120px;
    }
 
    .footer-left>.footer-buttons{
     display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
    }
 
-   /* .footer > .footer-right{
-    display: flex;
-    justify-content: center;
-   }
-
-  .footer > .footer-right> .foot{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  } */
-   
 
   table{
-    margin-left:200px;
-    text-align: center;
-    
+    margin-left:130px;
+    text-align: left;
+    margin-top: 100px; 
   }
  
   table th{
-    padding:10px 0 10px 0;
+    padding:20px 0 20px 0;
     width:300px;
+
   }
   table td{
     padding:20px 0 10px 0;
+    font-weight: 100;
+    color: gray;
+    font-size: 15px;
   }
 
-  
 
 
+
+  @media only screen and (max-width:920px){
+    .nav-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   .nav-container> .nav-lists {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 100px;
+     
+    }
+
+    .nav-container> .nav-lists>button{
+      margin-right:20px;
+      margin-top: 20px;
+    }
+    .nav-container> .nav-lists> ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .nav-container> .nav-lists> ul>li{
+      padding-top: 20px;
+    }
+    .carousel-card1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px;
+      width:100vw;
+      height: 100vh;
+    }
+    .carousel-card1 h1{
+      font-size: 30px;
+      
+    }
+    .carousel-card1 p{
+      
+      font-size: 20px;
+      font-weight: lighter;
+    }
+    .carousel-card1 h3{
+      margin-top: 10px;
+      margin-bottom: auto;
+      
+    }
+    .carousel-card1 .card1-button{
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .carousel-card1> .card1-button> img{
+      width:30px;
+    }
   
+    .carousel-card1 .card-left{
+      padding-top: 20px;
+      margin-left: 130px;
+    }
+  
+    .carousel-card1 .card-right{
+      margin-left:100px;
+      margin-right: auto;
+      /* border:1px solid red; */
+      margin-bottom: 10px;
+    }
+  }
+
   
 
